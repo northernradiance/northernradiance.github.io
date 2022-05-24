@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  font-size: 1.125rem;
+  font-weight: 420;
+  line-height: 1.15;
+  color: #000000;
+  text-align: left;
+  background-color: #FFFFFF;
+  background-size: 100%;
+  font-family: 'Raleway', sans-serif;
+  min-width:480px;
+}
+html{
+	scroll-behavior: smooth;
+}
+h1 {
+	font-family: 'Poiret One', sans-serif;
+	color: #FFFFFF;
+	margin-right: .7em;
+	margin-left: .4em;
+	font-size: 2.8em;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Poiret One', sans-serif;
+	color:rgba(0,0,0,1.00);
+	margin-right: .7em;
+	font-size:2.3em;
+    letter-spacing: .05em;
+	font-weight: 350;
+	margin: .2em;
+	font-weight: bold;
+}
+h3 {
+	font-family: 'Poiret One', sans-serif;
+	color:rgba(0,0,0,1.00);
+	font-size:2em;
+	font-weight: bold;
+}
+h4 {
+	font-family: 'Poiret One', sans-serif;
+	color: #FFFFFFF;
+	font-size:1.8em;
+	font-weight: bold;
+}
+h5 {
+	font-family: 'Poiret One', sans-serif;
+	font-size:1.8em;
+	font-weight: bolder;
+}
+h6 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: .5em;	
+	margin-bottom: .5em;
+}
+.bg-light {
+  background-color: rgba(158,158,158,0.82) !important;
+}
+tag {
+	color:#FFFFFF;
+	margin: 1em;
+}
+.nav-link{
+	
+	color:#FFFFFF;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Poiret One', sans-serif;
+  font-size: 1.8em; 
+  letter-spacing: .05em;
+  font-weight: 600;
+  text-shadow: 0 0 5px #515151;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: #D8E4EB;
+  text-shadow: 0 0 5px #000000;
+	
+}
+s
+.navbar-light .navbar-nav .nav-link.disabled {
+  color: rgba(207,207,207,1.00);
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+  color: #D8E4EB;
+	font-weight: bold;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(255,255,255,1.00);
+  border-color: rgba(255,255,255,1.00);
+	border-width: .2em;
+	
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, .7)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.nav-item {
+  margin-right: 2em;
+	
+}
+a:link {
+	color: #202020;
+	text-decoration: none;
+}
+
+a:visited {
+    color: #202020;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #616161;
+	text-decoration: none;
+}
+
+#logo {
+	align:center;
+}
+.contentFrame {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	height: 100%;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 115%;
+	border-radius: 12px;
+	padding: 2%;
+	line-height: 1.5;
+	min-width: 600px;
+}
+#contentFrameHome {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	height: 100%;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 115%;
+	background-color: rgba(226,226,226,0.70);
+	padding: 2%;
+	line-height: 1.5;
+	min-width: 600px;
+}
+.homeText{
+	color:#FFFFFF;
+}
+.vidEmbed {
+ 	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+}
+#backVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-color: #000000;
+    background-position: center center;
+    background-size: contain;
+    object-fit: cover;
+    z-index:-3 !important;
+    }
+#centerList{
+	list-style-type:none;
+	width: 80%;
+	min-width: 600px;
+	margin: auto;
+	text-align: center;	
+}
+.tableClass{
+	align-content: center;
+	text-align: center;
+	border: none;
+	border-collapse: collapse;
+	width: 70%;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	min-width: 500px;
+}
+.tableClass tr{
+	height: 50px;
+	vertical-align: center;
+	width: 60%;
+	background-color: #FBFBFB;
+}
+.tableClass td{
+	width: 40%;
+}
+.tableClass tr:hover {
+	background-color: #00FFAC;
+	color: #FFFFFF;
+}
+.darkBackground{
+	background: linear-gradient(to right,  #ff0074 25%, #00a7f7 50%, #00ffac 75%); 
+	padding: .2em;
+	border-radius: 5px;
+	margin: 1em;
+}
+.logo{
+	margin-right: auto; 
+	margin-left: auto; 
+	text-align: center; 
+	margin-top:2em; 
+	margin-bottom:2em;
+}
+.logoStyle{
+
+	min-width: 500px;
+}
